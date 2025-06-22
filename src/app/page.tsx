@@ -506,7 +506,7 @@ export default function KwanzaCoinSite() {
           </div>
 
           <div className="border-t border-red-600 mt-12 pt-8 text-center text-gray-300">
-            <p>&copy; 2024 KwanzaCoin. Todos os direitos reservados.</p>
+            <p>&copy; 2024 KwanzaCoin. Todos os direitos reservados a <Link href={'#'}>dev DJK</Link> .</p>
           </div>
         </div>
       </footer>
