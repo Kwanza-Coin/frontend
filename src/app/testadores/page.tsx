@@ -15,7 +15,7 @@ import { ArrowLeft, TestTube, User, Mail, Phone, Code, Award, Star } from "lucid
 import Link from "next/link"
 
 export default function TestadoresPage() {
-  const [formData, setFormData] = useState({
+  const [formData, setFormData]:any = useState({
     nome: "",
     email: "",
     telefone: "",
@@ -41,7 +41,7 @@ export default function TestadoresPage() {
     } else {
       setFormData({
         ...formData,
-        dispositivos: formData.dispositivos.filter((d) => d !== dispositivo),
+        dispositivos: formData.dispositivos.filter((d:any) => d !== dispositivo),
       })
     }
   }
